@@ -1,20 +1,15 @@
-# lesti
+# lesti.xyz
 
-## Build Setup
+## Na ez mi?
 
-```bash
-# install dependencies
-$ yarn install
+A portfolió projektem lesz idővel, még ha egyenlőre elég kezdetleges kis dolog is.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Mit fog tudni?
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+Na ez egy nagyon jó kérdés.
+Kezdetben kilistázza a projektjeimet és közöl pár infót rólam, viszont a későbbiekben tervezek bele pár izgalmasabb dolgot is. 😇
 
-# generate static project
-$ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+prod: lesti.xyz
+beta: beta.lesti.xyz
+```
