@@ -35,7 +35,7 @@
         justify-content: flex-end;
         align-items: center;
         padding: 20px 30px;
-        position: absolute;
+        position: fixed;
         width: 100%;
     }
     .nav_links{
@@ -95,12 +95,12 @@
         cursor: pointer;
     }
 
-        @media (max-width: 767px) {
+        @media (max-width: 960px) {
         .app-links, .contact{
             display: none;
         }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 961px) {
         .app-links {
             display: block;
         }
