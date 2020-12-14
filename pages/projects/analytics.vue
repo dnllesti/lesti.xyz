@@ -4,12 +4,19 @@
       <div class="left">
         <div>
           <Logo />
-          <h1 class="title">SEQ</h1>
+          <h1 class="title">Analytics</h1>
           <h2 class="subtitle">Projekt</h2>
         </div>
       </div>
 
       <div class="content">
+        <h2 class="subtitle">Na mi is ez?</h2>
+        <p>
+            Tervezem megépíteni a saját analytcis rendszerem, amivel tudom trackelni az oldalaim látogatottságát Google Analytics és társai nélkül.
+        </p>
+        <p>
+            Nem lesz olyan jó cucc, mint a commercial társai, de magamban még mindig jobban megbízok mint bennük és ezzel szerintem nem vagyok egyedül.
+        </p>
       </div>
     </div>
   </div>
@@ -18,29 +25,29 @@
 <script>
 export default {
   head: {
-    title: 'SEQ - lesti.xyz',
+    title: 'Analytics - lesti.xyz',
     meta: [
       {
         hid: 'description',
         name: 'description',
         content:
-          'SEQ',
+          'Analytics projekt oldal',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         content:
-          '',
+          'Analytics projekt oldal',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'SEQ - lesti.xyz',
+        content: 'Analytics projekt oldal',
       },
       {
         hid: 'og:url',
         name: 'og:url',
-        content: 'https://lesti.xyz/projects/seq',
+        content: 'https://lesti.xyz/projects/analytics',
       },
       {
         name: 'lang',
@@ -143,10 +150,16 @@ a {
     width: 100vw;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: justify;
     margin-top: 3vh;
-    padding: 5vw;
+    padding: 2vw 5vw;
+  }
+  .content{
+    .subtitle{
+      margin: 8vh 0 0 0;
+    }
+    margin-bottom: 5vh;
   }
   img:nth-last-of-type(1) {
     margin: 3vh 0 5vh 0;

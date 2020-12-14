@@ -4,35 +4,23 @@
       <div class="left">
         <div>
           <Logo />
-          <h1 class="title">ShareLock</h1>
+          <h1 class="title">Teamy</h1>
           <h2 class="subtitle">Projekt</h2>
         </div>
       </div>
 
       <div class="content">
-        <h2 class="subtitle">Na mit is tud ez?</h2>
+        <h2 class="subtitle">Na mi is ez?</h2>
         <p>
-          Egy négy fős csapattal összeülünk hetente megváltani a világot. Vagy
-          legalábbis tervezzük egyenlőre, na.
+            A <a href="https://uwr.hu">Tiszavirág</a> UWR (Underwater rugby) csapatnak szánt alkalmazás, amivel kezdetben trackelni lehet az egy-egy edzésen megjelenő játékosokat, 
+            valamint a tagdíj tartozásaikat, befizetéseiket
         </p>
         <p>
-          Egy nagyon aranyos progresszív web app-ot tervezünk, ahol az emberek
-          szabadidejüket kis story / logika based játékokban üthetik el.
-          Tervezünk különkiadásoktól kezdve mindent is.
+            Regisztráció minden csapatnak lehetséges lesz, akik szeretnék 1 helyen digitálisan managelni, hogy ki lesz és ki volt ott az edzéseken
         </p>
-        <p>Jó lesz, eskü ❤</p>
         <p>
-          Egyenlőre egy piackutatáson dolgozunk Google Form kérdőívvel, aminek a
-          kitöltésével te is segítheted projektünk fejlődését.
+            Későbbiekben csoport üzeneteket valamint edzés értesítőket és hasonlókat is tervezek bele
         </p>
-        <a href="https://forms.gle/ZV3zBt3oGc832Xrq6">
-          <button>Kérdőív</button>
-        </a>
-
-        <img
-          src="~/assets/sharelock_QR.png"
-          alt="QR Code with an URL to Google Forms"
-        />
       </div>
     </div>
   </div>
@@ -41,29 +29,29 @@
 <script>
 export default {
   head: {
-    title: 'ShareLock - lesti.xyz',
+    title: 'Teamy - lesti.xyz',
     meta: [
       {
         hid: 'description',
         name: 'description',
         content:
-          'Egy négy fős csapattal összeülünk hetente megváltani a világot. Vagylegalábbis tervezzük egyenlőre, na.',
+          'Teamy projekt oldal',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Egy négy fős csapattal összeülünk hetente megváltani a világot. Vagylegalábbis tervezzük egyenlőre, na.',
+          'Teamy projekt oldal',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'ShareLock Projekt - lesti.xyz',
+        content: 'Teamy projektoldal',
       },
       {
         hid: 'og:url',
         name: 'og:url',
-        content: 'https://lesti.xyz/projects/sharelock',
+        content: 'https://lesti.xyz/projects/teamy',
       },
       {
         name: 'lang',
@@ -158,11 +146,6 @@ a {
       width: 100%;
     }
   }
-  .content{
-    .subtitle{
-      margin-top: 5vh;
-    }
-  }
   .logo {
   }
   .title {
@@ -174,7 +157,13 @@ a {
     font-size: 1.2rem;
     text-align: justify;
     margin-top: 3vh;
-    padding: 5vw;
+    padding: 2vw 5vw;
+  }
+  .content{
+    .subtitle{
+      margin: 8vh 0 0 0;
+    }
+    margin-bottom: 5vh;
   }
   img:nth-last-of-type(1) {
     margin: 3vh 0 5vh 0;
@@ -237,7 +226,7 @@ a {
   }
 
   p {
-    margin: 4vh 5vw;
+    margin: 5vh 5vw;
     font-size: 1.4rem;
     text-align: justify;
     color: $main_contra;

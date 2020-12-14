@@ -1,22 +1,24 @@
 <template>
   <div class="container">
-    <Logo class="logo" />
-    <div class="content">
-      <h1 class="title">Lesti Dániel</h1>
-        <div class="ce">
+    <div class="left centered-flex">
+      <ProjectLeft title="" />
+    </div>
+    <div class="right centered-flex">
+      <div class="content">
+        <h1 class="title">Lesti Dániel</h1>
+        <div>
           <font-awesome-icon :icon="faInstagram" style="font-size: 30px" />
           <p>@lestidnl</p>
-      </div>
-        <div class="ce">
+        </div>
+        <div>
           <font-awesome-icon :icon="faGithub" style="font-size: 30px" />
-
           <p>@dnllesti</p>
         </div>
-        <div class="ce">
+        <div>
           <font-awesome-icon :icon="faEnvelope" style="font-size: 30px" />
-
           <p>daniel@lesti.xyz</p>
         </div>
+      </div>
     </div>
   </div>
 </template>
@@ -41,89 +43,53 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~/assets/scss/leftright.scss';
+
 .content {
-  margin: 0 auto;
-}
-.container {
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  flex-direction: row-reverse;
-  background-color: $main_color;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: $main_contra;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: $main_contra;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-p {
-  margin-bottom: 1vh;
-  margin-top: 1vh;
-  font-size: 1.4rem;
   text-align: left;
-  color: $main_contra;
-  font-weight: bold;
-  vertical-align: middle;
-  display: inline;
-}
-.ce {
-  display: flex;
-  margin-left: 2rem;
-  align-items: center;
-  p {
-    margin-left: 1rem;
-    width: 40%;
+  margin: 0 auto 0 auto;
+  width: 70% !important;
+  @media (max-width: 961px) {
+    width: 100% !important;
+    margin: 0 auto 10vh auto;
   }
-}
+  @media (min-width: 961px) {
+  }
 
-@media (max-width: 767px) {
-  .app-links {
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  .logo {
-    margin-top: 0vh;
-    margin-bottom: -25vh;
-  }
-  .title{
-      font-size: 4rem;
-      width: 100vw;
-  }
-  .ce{
+  & > div {
+    display: flex;
+    @media (max-width: 961px) {
+      width: 70% !important;
       margin: 0 auto;
-  justify-content: center;
-      width: 100vw;
-      text-align: center;
-      p{
+    }
+    & > * {
+      display: inline;
+      margin: 1vh 2vh 1vh 0;
+      font-weight: 700;
+      font-size: 1.4rem;
+      &:nth-child(1) {
+        margin-left: 2vw;
       }
+    }
   }
-  .ce:nth-of-type(1){
-      margin-top: 1rem;
-  }
-  .logo{
-      display: block;
-      width: 30vh;
+
+  .title {
+    font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
+      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+      sans-serif;
+    display: block;
+    font-weight: 300;
+    color: $main_contra;
+    letter-spacing: 1px;
+
+    @media (max-width: 961px) {
+      font-size: 4rem;
+      text-align: center;
+      margin-bottom: 2vh;
+    }
+    @media (min-width: 961px) {
+      font-size: 6rem;
+    }
   }
 }
 </style>
