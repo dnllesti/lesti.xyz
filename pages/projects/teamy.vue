@@ -1,5 +1,5 @@
 <template>
-  <project-sablon title="Teamy" description="Teamy projektoldal" url="https://lesti.xyz/project/teamy">
+  <project-sablon title="Teamy" description="Teamy projektoldal" url="https://lesti.xyz/projects/teamy">
         <p>
             A <a href="https://uwr.hu">Tiszavirág</a> UWR (Underwater rugby) csapatnak szánt alkalmazás, amivel kezdetben trackelni lehet az egy-egy edzésen megjelenő játékosokat, 
             valamint a tagdíj tartozásaikat, befizetéseiket
