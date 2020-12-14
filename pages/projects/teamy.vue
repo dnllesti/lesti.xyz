@@ -12,7 +12,7 @@
       <div class="content">
         <h2 class="subtitle">Na mi is ez?</h2>
         <p>
-            Egyenlőre az insert team name here UWR (Under Water Rugby) csapatnak szánt alkalmazás, amivel kezdetben trackelni lehet az egy-egy edzésen megjelenő játékosokat, 
+            A <a href="https://uwr.hu">Tiszavirág</a> UWR (Underwater rugby) csapatnak szánt alkalmazás, amivel kezdetben trackelni lehet az egy-egy edzésen megjelenő játékosokat, 
             valamint a tagdíj tartozásaikat, befizetéseiket. 
         </p>
         <p>
