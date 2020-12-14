@@ -41,7 +41,7 @@
 <script>
 export default {
   head: {
-    title: 'ShareLock Projekt - lesti.xyz',
+    title: 'ShareLock - lesti.xyz',
     meta: [
       {
         hid: 'description',
