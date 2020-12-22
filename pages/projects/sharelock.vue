@@ -11,7 +11,7 @@
         </p>
         <p>Jó lesz, eskü ❤</p>
         <p>
-          Egyenlőre egy piackutatáson dolgozunk Google Form kérdőívvel, aminek a
+          Egyelőre egy piackutatáson dolgozunk Google Form kérdőívvel, aminek a
           kitöltésével te is segítheted projektünk fejlődését.
         </p>
         <a href="https://forms.gle/ZV3zBt3oGc832Xrq6">
