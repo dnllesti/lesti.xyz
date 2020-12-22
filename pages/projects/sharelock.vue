@@ -1,5 +1,5 @@
 <template>
-  <project-sablon title="ShareLock" description="ShareLock projektoldal" url="https://lesti.xyz/project/sharelock">
+  <project-sablon title="ShareLock" description="ShareLock projektoldal" url="https://lesti.xyz/projects/sharelock">
         <p>
           Egy négy fős csapattal összeülünk hetente megváltani a világot. Vagy
           legalábbis tervezzük egyenlőre, na.

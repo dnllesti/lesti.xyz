@@ -1,5 +1,5 @@
 <template>
-  <project-sablon title="lesti.xyz" description="lesti.xyz projektoldal" url="https://lesti.xyz/project/lesti">
+  <project-sablon title="lesti.xyz" description="lesti.xyz projektoldal" url="https://lesti.xyz/projects/lesti">
         <p>
           Itt tervezem összegyűjteni a projektjeimet, a tudásomat és mindent ami jóformán én vagyok. Főleg portfolio projekt, de ki tudja mi lesz még ebből. 
         </p>
