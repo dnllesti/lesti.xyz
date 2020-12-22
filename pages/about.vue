@@ -5,7 +5,7 @@
       <ProjectLeft title="Rólam" />
     </div>
     <div class="items">
-        <project-list-item title="Álltalános dolgok" url="/rolam/alltalanos" />
+        <project-list-item title="Általános dolgok" url="/rolam/altalanos" />
         <project-list-item title="Szakmai" url="/rolam/szakmai" />
         <project-list-item title="Szabadidő" url="/rolam/szabadido" />
     </div>
