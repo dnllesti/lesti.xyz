@@ -8,6 +8,10 @@
 
     <transition name="slide-side">
       <div v-if="toggleSidebar" class="sidenav">
+      <div class="brand">
+      <img  src="~/assets/rect.png" alt="" />
+      <h2>Lesti.xyz</h2>
+      </div>
         <AppLinks class="app-links" />
   <NuxtLink class="contact"  to="/contact"> <button>Kapcsolat</button> </NuxtLink>
 
@@ -32,6 +36,20 @@ export default {
   height: 100%;
   width: 100%;
 }
+.brand{
+  margin: 3vh auto 6vh auto;
+  text-align: center;
+  color: $main_contra;
+  height: 5%;
+  img{
+    height: 100%;
+    filter: $main_filter;
+  }
+  h2{
+    padding-top: 0.2rem;
+    font-size: 1.2rem;
+  }
+}
 .sidenav {
   height: 100%;
   width: 70%;
@@ -41,13 +59,13 @@ export default {
   top: 0;
   right: 0;
   box-sizing: border-box;
-  padding: 10vh 0;
+  padding: 0 0;
 }
 .backdrop {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: 1000;
+  z-index: 9000;
   position: fixed;
   top: 0;
   right: 0;

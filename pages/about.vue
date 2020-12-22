@@ -1,111 +1,43 @@
 <template>
+  <div class="container">
   <div>
-    <div class="container">
-      <div class="left centered-flex">
-        <project-left title="Lesti Dániel" />
-      </div>
-      <div class="right">
-        <div class="content">
-          <p>
-            Egy 18 éves főállásban szakgimnazista srác vagyok és az átlagosnál
-            pontosan sokkal több dologgal szeretek foglalkozni mint egy okosabb
-            dzsungelben élő leveli béka. Szeretem az unikornisokat, meg van pár
-            ilyen dolgom viszont ide egy fokkal értelmesebb dolgokat is
-            szeretnék írni.
-          </p>
-          <p>
-            Szabadidőmben a jövőmet tervezgetem főleg és dolgokat csinálok amik
-            előre visznek abba az irányba amerre tolni szeretném az egész életem
-            idővel.
-          </p>
-          <p>
-            Nagyon szeretek hálózatokkal foglalkozni, ahogy megvan a saját kis
-            egyéniségem és idővel vezetőnek se leszek utolsó, hisz megvannak
-            hozzá az adottságaim. Több szempontból sztereotíp fiatal vagyok, de
-            több szempontból nem. Ha valamit nem szeretek, azzal nem
-            foglalkozok, viszont ami érdekel abba szivemet lelkemet beleadva
-            csinálom és addig fejlesztem magam amég meg nem elégszek az
-            eredménnyel.
-          </p>
-          <p>
-            Nagy terveim vannak. Van amenyik tényszerűen nem reális, viszont
-            irányt mutatnak és mindig tudom ezálltal, hogy mikor mit kell
-            tennem, ahoz hogy közelebb kerüljek hozzájuk.
-          </p>
-          <p>
-            Per pillanat csak saját projektjeim vannak, amiken vagy egyedül vagy
-            csoporttal ügyködünk, viszont nagyon szeretnék elkezdeni dolgozni is
-            valamikor a közeljövőben akár hálózatokkal, akár fejlesztőként.
-          </p>
-          <p>
-            Amennyiben bármilyen ügyben meg szeretnének keresni több mint boldog
-            lennék ha írnának egy üzenetet bármelyik elérhetőségemen.
-          </p>
-        </div>
-      </div>
+    <div class="title">
+      <ProjectLeft title="Rólam" />
     </div>
+    <div class="items">
+        <project-list-item title="Álltalános dolgok" url="/rolam/alltalanos" />
+        <project-list-item title="Szakmai" url="/rolam/szakmai" />
+        <project-list-item title="Szabadidő" url="/rolam/szabadido" />
+    </div>
+  </div>
+    <BottomLeftTriangle class="triangle" />
   </div>
 </template>
 
 <style lang="scss" scoped>
-@import '~/assets/scss/leftright.scss';
 
-.right {
+.container{
+    .triangle{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+  height: 100vh;
+
   display: flex;
   align-items: center;
-  p {
-    font-size: 1.2rem;
-    text-align: justify;
-    margin-top: 2vh;
-    padding: 0 7vw;
-    @media (max-width: 960px) {
-      margin-top: 4vh;
-      padding: 0 7vw;
-    }
+  justify-content: center;
+  @media (min-width: 960px) {
+    margin-right: 18vw;
+    justify-content: flex-end;
   }
-}
-</style>
+  &>div{
+  @media (min-width: 960px) {
+    width: 20vw;
+  }
+    text-align: center;
+  }
 
-<script>
-import projectLeft from '../components/project/projectLeft.vue'
-export default {
-  components: { projectLeft },
-  head: {
-    title: 'About Lesti - lesti.xyz',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'Egy fura fejlesztő srác, aki szeret hálózatokkal, gépekkel és álltalánosan mindennel foglalkozni ami elektromos.',
-      },
-      {
-        hid: 'og:description',
-        name: 'og:description',
-        content:
-          'Egy fura fejlesztő srác, aki szeret hálózatokkal, gépekkel és álltalánosan mindennel foglalkozni ami elektromos.',
-      },
-      {
-        hid: 'og:title',
-        name: 'og:title',
-        content: 'About Lesti - lesti.xyz',
-      },
-      {
-        hid: 'og:url',
-        name: 'og:url',
-        content: 'https://lesti.xyz/about',
-      },
-      {
-        name: 'lang',
-        content: 'hu',
-      },
-      {
-        hid: 'og:image',
-        name: 'og:image',
-        property: 'og:image',
-        content: 'https://lesti.xyz/lesti_OG.png',
-      },
-    ],
-  },
 }
-</script>
+
+</style>

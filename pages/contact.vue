@@ -65,7 +65,7 @@ export default {
     & > * {
       display: inline;
       margin: 1vh 2vh 1vh 0;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 1.4rem;
       &:nth-child(1) {
         margin-left: 2vw;
@@ -74,11 +74,8 @@ export default {
   }
 
   .title {
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
-      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-      sans-serif;
     display: block;
-    font-weight: 300;
+    font-weight: 700;
     color: $main_contra;
     letter-spacing: 1px;
 

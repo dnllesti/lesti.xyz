@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="default-div">
     <Navbar />
     <SideNav />
     <Nuxt />
@@ -10,7 +10,7 @@
 
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:bold,wght@1,500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
 
 html {
   font-family: 'Roboto', 'Source Sans Pro', -apple-system,

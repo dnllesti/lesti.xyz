@@ -2,8 +2,8 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">Hello</h1>
-      <h2 class="subtitle">Köszi, hogy itt vagy ❤</h2>
+      <h1 class="title">404</h1>
+      <h2 class="subtitle">Eskü dolgozok az ügyön!</h2>
       <!--<h2 class="subtitle">
         Főleg Test -
         <span v-if="$fetchState.pending">Fetching mountains...</span>

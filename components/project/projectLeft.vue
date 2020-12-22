@@ -29,19 +29,17 @@ export default {
             margin-bottom: 3rem;
             }
             .title {
-            font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
-            BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-            sans-serif;
+
             margin: 1rem 0 0 0;
-            font-weight: 300;
+            font-weight: 700;
             color: $main_contra;
 
             @media (max-width: 961px) {
-                font-size: 4rem;
+                font-size: 3rem;
 
             }
             @media (min-width: 961px) {
-                font-size: 6rem;
+                font-size: 4rem;
 
             }
 
