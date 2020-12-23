@@ -71,6 +71,15 @@ export default {
   server: {
     host: '0.0.0.0', // default: localhost
   },
+  pwa: {
+    meta: {
+      lang: "hu",
+      author: "Lesti Dániel",
+      theme_color: "#ffffff",
+      favicon: true,
+      name: "lesti.xyz"
+    }
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
