@@ -9,6 +9,14 @@ export default {
         content: 'hu',
       },
       {
+        name: 'msapplication-TileColor',
+        content: '#ffffff',
+      },
+      {
+        name: 'theme-color',
+        content: '#ffffff',
+      },
+      {
         name: 'lang',
         content: 'hu',
       },
