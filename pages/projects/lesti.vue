@@ -7,7 +7,7 @@
           Egyenlőre a fő funkcionalitása spagettikódban, pár linkben és pár furcsa álltalam nagyon szépen megfogalmazott mondatból ál, viszont esküszöm dolgozok az ügyön.
         </p>
         <p>
-          Fontos részlet hogy, mint minden jó fejlesztő <small><code>#kappa</code></small> a landing page-t csinálom meg utoljára, hisz azt úgyse látja senki, csak mindenki.
+          Fontos részlet hogy, mint minden jó fejlesztő <small><code>#kappa</code></small> a landing page-et csinálom meg utoljára, hisz azt úgyse látja senki, csak mindenki.
         </p>
   </project-sablon>
 </template>

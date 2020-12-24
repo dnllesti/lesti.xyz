@@ -2,11 +2,11 @@
   <div>
     <div class="container">
       <div class="left">
-          <project-left :title="title" :subtitle="'Projekt'" />
+          <project-left :title="title" :subtitle="subtitle? '' : 'Projekt'" />
       </div>
 
-      <div class="content">
-        <h2 class="subtitle">Na mi is ez?</h2>
+      <div :class="about ? 'about' : '' " class="content">
+        <h2 class="subtitle" >{{subtitle ? subtitle : "Na mi is ez?"}}</h2>
         <slot></slot>
       </div>
     </div>
@@ -20,6 +20,8 @@ export default {
     title: String,
     url: String,
     description: String,
+    about: Boolean,
+    subtitle: String
 },
   head() {
       return {
@@ -66,6 +68,9 @@ export default {
 <style lang="scss" scoped>
 @import '~/assets/scss/leftright.scss';
 
+p{
+  font-weight: 400;
+}
 
 button {
   color: $cta_two_contra;
@@ -98,17 +103,12 @@ a {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 2rem;
-  color: $main_contra;
   letter-spacing: 1px;
 }
 
 .subtitle {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 42px;
   color: $main_contra;
   word-spacing: 5px;
@@ -135,22 +135,20 @@ a {
       width: 100%;
     }
   }
-  .logo {
-  }
   .title {
     font-size: 4rem;
     margin-top: 3vh;
     width: 100vw;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: justify;
     margin-top: 3vh;
     padding: 2vw 5vw;
   }
   .content{
     .subtitle{
-      margin: 8vh 0 0 0;
+      margin: 0vh 0 0 0;
     }
     margin-bottom: 5vh;
   }
@@ -215,11 +213,17 @@ a {
   }
 
   p {
-    margin: 5vh 5vw;
+    margin: 3vh 5vw;
     font-size: 1.4rem;
     text-align: justify;
     color: $main_contra;
     vertical-align: middle;
+  }
+  .about{
+    width: 70rem;
+    p{
+      font-size: 1.2rem;
+    }
   }
 }
 </style>
