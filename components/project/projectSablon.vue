@@ -2,52 +2,52 @@
   <div>
     <div class="container">
       <div class="left">
-        <div>
-          <Logo />
-          <h1 class="title">Analytics</h1>
-          <h2 class="subtitle">Projekt</h2>
-        </div>
+          <project-left :title="title" :subtitle="subtitle? '' : 'Projekt'" />
       </div>
 
-      <div class="content">
-        <h2 class="subtitle">Na mi is ez?</h2>
-        <p>
-            Tervezem megépíteni a saját analytcis rendszerem, amivel tudom trackelni az oldalaim látogatottságát Google Analytics és társai nélkül.
-        </p>
-        <p>
-            Nem lesz olyan jó cucc, mint a commercial társai, de magamban még mindig jobban megbízok mint bennük és ezzel szerintem nem vagyok egyedül.
-        </p>
+      <div :class="about ? 'about' : '' " class="content">
+        <h2 class="subtitle" >{{subtitle ? subtitle : "Na mi is ez?"}}</h2>
+        <slot></slot>
       </div>
     </div>
   </div>
 </template>
-
 <script>
+import projectLeft from './projectLeft.vue'
 export default {
-  head: {
-    title: 'Analytics - lesti.xyz',
+  components: { projectLeft },
+  props: {
+    title: String,
+    url: String,
+    description: String,
+    about: Boolean,
+    subtitle: String
+},
+  head() {
+      return {
+    title: this.title + ' - lesti.xyz',
     meta: [
       {
         hid: 'description',
         name: 'description',
         content:
-          'Analytics projekt oldal',
+          this.description,
       },
       {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Analytics projekt oldal',
+          this.description,
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Analytics projekt oldal',
+        content: this.description,
       },
       {
         hid: 'og:url',
         name: 'og:url',
-        content: 'https://lesti.xyz/projects/analytics',
+        content: this.url,
       },
       {
         name: 'lang',
@@ -60,20 +60,18 @@ export default {
         content: 'https://lesti.xyz/lesti_OG.png',
       },
     ],
+    }
   },
 }
 </script>
 
 <style lang="scss" scoped>
-.left {
-  div {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+@import '~/assets/scss/leftright.scss';
+
+p{
+  font-weight: 400;
 }
+
 button {
   color: $cta_two_contra;
   padding: 9px 25px;
@@ -105,17 +103,12 @@ a {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 2rem;
-  color: $main_contra;
   letter-spacing: 1px;
 }
 
 .subtitle {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 42px;
   color: $main_contra;
   word-spacing: 5px;
@@ -142,22 +135,20 @@ a {
       width: 100%;
     }
   }
-  .logo {
-  }
   .title {
     font-size: 4rem;
     margin-top: 3vh;
     width: 100vw;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: justify;
     margin-top: 3vh;
     padding: 2vw 5vw;
   }
   .content{
     .subtitle{
-      margin: 8vh 0 0 0;
+      margin: 0vh 0 0 0;
     }
     margin-bottom: 5vh;
   }
@@ -222,11 +213,17 @@ a {
   }
 
   p {
-    margin: 5vh 5vw;
+    margin: 3vh 5vw;
     font-size: 1.4rem;
     text-align: justify;
     color: $main_contra;
     vertical-align: middle;
+  }
+  .about{
+    width: 70rem;
+    p{
+      font-size: 1.2rem;
+    }
   }
 }
 </style>

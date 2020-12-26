@@ -2,8 +2,9 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">Hello</h1>
-      <h2 class="subtitle">Köszi, hogy itt vagy ❤</h2>
+      <h1 class="title">404</h1>
+      <h2 class="subtitle">AZ UNIKORNISOK VOLTAK</h2>
+
     </div>
     <BottomLeftTriangle class="triangle" />
   </div>
@@ -65,13 +66,3 @@
         }
     }
 </style>
-
-<script>
-export default {
-  data() {
-    return {
-      fetchelt: {},
-    }
-  }
-}
-</script>

@@ -3,7 +3,7 @@
 
     <ul class="nav_links">
       <li><NuxtLink  to="/">Nyitólap</NuxtLink></li>
-      <li><NuxtLink  to="/about">Rólam</NuxtLink></li>
+      <li><NuxtLink  to="/rolam">Rólam</NuxtLink></li>
       <li><NuxtLink  to="/projects">Projektek</NuxtLink></li>
     </ul>
   </nav>

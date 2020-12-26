@@ -9,6 +9,14 @@ export default {
         content: 'hu',
       },
       {
+        name: 'msapplication-TileColor',
+        content: '#ffffff',
+      },
+      {
+        name: 'theme-color',
+        content: '#ffffff',
+      },
+      {
         name: 'lang',
         content: 'hu',
       },
@@ -62,6 +70,15 @@ export default {
   buildModules: ['@nuxtjs/fontawesome'],
   server: {
     host: '0.0.0.0', // default: localhost
+  },
+  pwa: {
+    meta: {
+      lang: "hu",
+      author: "Lesti Dániel",
+      theme_color: "#ffffff",
+      favicon: true,
+      name: "lesti.xyz"
+    }
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)

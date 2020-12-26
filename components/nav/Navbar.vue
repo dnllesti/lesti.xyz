@@ -2,7 +2,7 @@
 <header>
     <div class="logo">
         <a href="/">
-    <!--<img  src="~/assets/lesti.svg" alt="">-->
+        <Brand />
         </a>
     </div>
 
@@ -22,29 +22,30 @@
         margin: 0;
         padding: 0;
         background-color: $main_color;
+        text-decoration: none !important;
+        font-weight: 700;
     }
 
     button{
-        font-weight: 500;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: $main_contra;
         text-decoration:none;
     }
     header{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         padding: 20px 30px;
         position: fixed;
         width: 100%;
+        background-color: $main_color;
+        z-index: 2;
     }
     .nav_links{
         list-style: none;
-        margin-right: 20px;
     }
     .nav_links li{
         display: inline-block;
-        padding: 0px 20px;
     }
     .nav_links li a{
         transition: all 0.3 ease 0s;
@@ -55,13 +56,16 @@
     }
     button{
         color: $cta_one_contra;
-        padding: 12px 25px;
+        padding: 8px 20px;
         background-color: $cta_one;
         border: none;
         border-radius: 50px;
         cursor: pointer;
         transition: all 0.3 ease 0s;
-        float: right;
+    }
+
+    .contact{
+        margin-left: auto;
     }
 
     button:hover{

@@ -2,12 +2,12 @@
   <div class="container">
   <div>
     <div class="title">
-      <ProjectLeft title="Projektek" />
+      <ProjectLeft title="Rólam" />
     </div>
     <div class="items">
-        <project-list-item title="ShareLock" url="/projects/sharelock" />
-        <project-list-item title="Teamy" url="/projects/teamy" />
-        <project-list-item title="lesti.xyz" url="/projects/lesti" />
+        <project-list-item title="Általános dolgok" url="/rolam/altalanos" />
+        <project-list-item title="Szakmai" url="/rolam/szakmai" />
+        <project-list-item title="Szabadidő" url="/rolam/szabadido" />
     </div>
   </div>
     <BottomLeftTriangle class="triangle" />

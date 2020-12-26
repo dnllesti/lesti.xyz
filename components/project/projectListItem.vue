@@ -16,20 +16,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
     .projekt {
             text-decoration: none;
-            color: $secondary_color;
-            border: 3px solid $secondary_color;
-            border-radius: 3rem;
-            padding: 3vh;
+            color: $cta_one_contra;
+            background-color: $cta_one;
+            padding: 0.4rem 1rem;
             margin: 3vh auto;
 
+            text-align: left;
+            font-size: 0.9rem;
+
             @media (max-width: 961px) {
-                width: 80%;
+            width: 60vw;
             }
             @media (min-width: 961px) {
-                width: 50%;
+            width: 80%;
             }
 
     }
