@@ -7,7 +7,6 @@
     <div class="items">
         <project-list-item title="ShareLock" url="/projects/sharelock" />
         <project-list-item title="Teamy" url="/projects/teamy" />
-        <project-list-item title="Analytics" url="/projects/analytics" />
         <project-list-item title="lesti.xyz" url="/projects/lesti" />
     </div>
   </div>
