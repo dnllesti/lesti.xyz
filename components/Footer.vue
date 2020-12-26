@@ -1,7 +1,7 @@
 <template>
 <footer>
     <p>
-      A weboldal Fejlesztés alatt áll. Bármilyen esetleges probléma / észrevétel / tanács kapcsán kérem forduljanak a fejlesztőhöz.
+      A weboldal Fejlesztés alatt áll. Bármilyen esetleges probléma / észrevétel / tanács kapcsán kérem forduljanak a fejlesztőhöz. <br /> A következő időszakban Matomo Analytics tesztelés fog folyni, így az oldal folyamatos trackelés alatt lesz.
     </p>
     <p>
       &copy; {{ new Date().getFullYear() }} Lesti Dániel

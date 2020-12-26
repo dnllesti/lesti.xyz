@@ -34,7 +34,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Egy lelkes fejlesztő srác, aki szeret hálózatokkal és mindennel foglalkozni ami elektromos.',
+        content:
+          'Egy lelkes fejlesztő srác, aki szeret hálózatokkal és mindennel foglalkozni ami elektromos.',
       },
       {
         hid: 'title',
@@ -46,11 +47,11 @@ export default {
         name: 'og:title',
         content: 'Lesti Dániel',
       },
-            {
+      {
         hid: 'og:description',
         name: 'og:description',
         content: 'Egy totál random lelkes fejlesztő srác.',
-            },
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -73,12 +74,12 @@ export default {
   },
   pwa: {
     meta: {
-      lang: "hu",
-      author: "Lesti Dániel",
-      theme_color: "#ffffff",
+      lang: 'hu',
+      author: 'Lesti Dániel',
+      theme_color: '#ffffff',
       favicon: true,
-      name: "lesti.xyz"
-    }
+      name: 'lesti.xyz',
+    },
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -86,6 +87,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
+    ['nuxt-matomo', { matomoUrl: '//matomo.lesti.xyz/', siteId: 2 }],
   ],
   styleResources: {
     scss: ['~/assets/scss/colors.scss'],
