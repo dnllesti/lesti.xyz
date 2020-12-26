@@ -1,5 +1,5 @@
 <template>
-  <div id="default-div">
+  <div :class="dark ? 'dark' : 'light'" id="default-div">
     <Navbar />
     <SideNav />
     <Nuxt />
@@ -9,7 +9,7 @@
 
 
 
-<style>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 html {
@@ -22,6 +22,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: $main_color;
 }
 
 *,
@@ -60,3 +61,15 @@ html {
   background-color: #35495e;
 }
 </style>
+
+<script>
+export default {
+  data: function () {
+    return(
+      {
+        dark: true
+      }
+    )
+  }
+}
+</script>

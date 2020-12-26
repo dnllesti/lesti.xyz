@@ -49,6 +49,7 @@ export default {
   text-align: left;
   margin: 0 auto 0 auto;
   width: 70% !important;
+  color: $main_contra;
   @media (max-width: 961px) {
     width: 100% !important;
     margin: 0 auto 10vh auto;

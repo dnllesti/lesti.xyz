@@ -4,14 +4,6 @@
       <Logo />
       <h1 class="title">Hello</h1>
       <h2 class="subtitle">Köszi, hogy itt vagy ❤</h2>
-      <!--<h2 class="subtitle">
-        Főleg Test -
-        <span v-if="$fetchState.pending">Fetching mountains...</span>
-        <span v-else-if="$fetchState.error">An error occurred :(</span>
-        <span v-else>Fecsy: {{ fetchelt.data }}</span>
-      </h2>
-
-      <button @click="$fetch">Refresh</button>-->
     </div>
     <BottomLeftTriangle class="triangle" />
   </div>
@@ -80,12 +72,6 @@ export default {
     return {
       fetchelt: {},
     }
-  },
-  /*async fetch() {
-    this.fetchelt = await fetch(
-      //'https://lesti.xyz/api/test'
-      'http://192.168.0.102:3000/api/test'
-    ).then((res) => res.json())
-  },*/
+  }
 }
 </script>

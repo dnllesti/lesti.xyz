@@ -16,9 +16,6 @@
   filter: $main_filter;
 }
 
-*{
-}
-
 .container{
     height: 1.5rem;
     position: relative;
@@ -31,7 +28,7 @@
     h2{
         font-size: 1.2rem !important;
         padding-bottom: 0.1rem;
-        color: $secondary_color
+        color: $main_contra;
     }
 }
 
