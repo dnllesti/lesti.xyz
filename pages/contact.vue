@@ -8,7 +8,7 @@
         <h1 class="title">Lesti Dániel</h1>
         <div>
           <font-awesome-icon :icon="faInstagram" style="font-size: 30px" />
-          <p>@lestidnl</p>
+          <p>@dnllesti</p>
         </div>
         <div>
           <font-awesome-icon :icon="faGithub" style="font-size: 30px" />
