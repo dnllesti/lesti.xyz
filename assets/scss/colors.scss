@@ -1,12 +1,12 @@
 $main_color: #ffffff;
-$main_contra: #2f3542;
-$secondary_color: #2f3542;
+$main_contra: #000;// #2f3542;
+$secondary_color: #000; // #2f3542;
 $secondary_contra: #ffffff;
 
-$cta_one: #6165FF;
+$cta_one: #000;
 $cta_one_contra: #fff;
 $cta_two: #6165FF;
 $cta_two_bckp: #ff4757;
 $cta_two_contra: #fff;
 
-$main_filter: invert(42%) sepia(36%) saturate(6567%) hue-rotate(226deg) brightness(101%) contrast(105%);
+$main_filter: none; //invert(42%) sepia(36%) saturate(6567%) hue-rotate(226deg) brightness(101%) contrast(105%);

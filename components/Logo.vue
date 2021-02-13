@@ -5,7 +5,7 @@
 <style lang="scss" scoped>
 .Logo {
 //  animation: 5s color infinite alternate;
-  filter: $main_filter;
+  //filter: $main_filter;
   margin: 0 auto;
   width: 20vh;
 }

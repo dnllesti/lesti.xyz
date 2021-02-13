@@ -6,8 +6,7 @@
         </a>
     </div>
 
-    <AppLinks class="app-links" />
-  <NuxtLink class="contact" to="/contact"> <button>Kapcsolat</button> </NuxtLink>
+  <NuxtLink class="contact" to="/kapcsolat"> <button>Kapcsolat</button> </NuxtLink>
           <div class="drawer-toggle" role="button" @click="$store.dispatch('nav/toggleSidebar')">
             <div class="bar"></div>
             <div class="bar"></div>

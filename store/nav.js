@@ -1,6 +1,6 @@
 // States
 export const state = () => ({
-  toggleSidebar: false,
+  toggleSidebar: true,
 })
 
 // mutations

@@ -1,11 +1,9 @@
 <template>
 <footer>
     <p>
-      A weboldal Fejlesztés alatt áll. Bármilyen esetleges probléma / észrevétel / tanács kapcsán kérem forduljanak a fejlesztőhöz. <br /> A következő időszakban Matomo Analytics tesztelés fog folyni, így az oldal folyamatos trackelés alatt lesz.
+      &copy; {{ new Date().getFullYear() }} Lesti Dániel <a target="_blank" class="cookie" href="/cookie_policy.pdf">Cookie Policy</a>
     </p>
-    <p>
-      &copy; {{ new Date().getFullYear() }} Lesti Dániel
-    </p>
+    
     <div>
      <a href="mailto: daniel@lesti.xyz"> <font-awesome-icon :icon="faEnvelope" /></a>  <a href="https://www.instagram.com/dnllesti/"> <font-awesome-icon :icon="faInstagram" /></a><a href="https://github.com/dnllesti"> <font-awesome-icon :icon="faGithub" /></a>
     </div>
@@ -23,7 +21,7 @@
         background-color: $secondary_color;
         width: 100%;
         text-align: center;
-        padding: 3rem;
+        padding: 2rem;
     }
     div{
         margin-top: 1rem;
@@ -32,6 +30,8 @@
         color: $cta_two;
         margin: 0 0.6rem;
     }
+    .cookie{
+padding: 1rem;    }
 </style>
 
 <script>

@@ -20,17 +20,17 @@ export default {
             text-decoration: none;
             color: $cta_one_contra;
             background-color: $cta_one;
-            padding: 0.4rem 1rem;
-            margin: 3vh auto;
+            padding: 0.7rem 0rem;
+            margin: 2vh auto;
 
-            text-align: left;
-            font-size: 0.9rem;
+            text-align: center;
+            font-size: 0.75rem;
 
             @media (max-width: 961px) {
-            width: 60vw;
+            width: 70vw;
             }
             @media (min-width: 961px) {
-            width: 80%;
+            width: 90%;
             }
 
     }

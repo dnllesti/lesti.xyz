@@ -1,5 +1,5 @@
 <template>
-  <div :class="dark ? 'dark' : 'light'" id="default-div">
+  <div id="default-div">
     <Navbar />
     <SideNav />
     <Nuxt />

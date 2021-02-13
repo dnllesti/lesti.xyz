@@ -12,7 +12,7 @@
   margin: 0 0.4rem 0 0;
   height: 100%;
   width: auto;
-  transform: rotate(90deg);
+  //transform: rotate(90deg);
   filter: $main_filter;
 }
 

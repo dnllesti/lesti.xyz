@@ -13,7 +13,7 @@
       <h2>Lesti.xyz</h2>
       </div>
         <AppLinks class="app-links" />
-  <NuxtLink class="contact"  to="/contact"> <button>Kapcsolat</button> </NuxtLink>
+  <NuxtLink class="contact"  to="/kapcsolat"> <button>Kapcsolat</button> </NuxtLink>
 
       </div>
     </transition>
