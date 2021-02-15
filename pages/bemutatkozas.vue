@@ -7,7 +7,7 @@
         Először is, köszönöm, hogy itt vannak, tényleg sokat jelent nekem.
         Másodszor is viszont.. Mégis mi ez az oldal és miért létezik?
         <br />
-        Szerettem volna egy helyet, ahova el tudok küldeni mindenkit, akiben
+        Szerettem volna egy helyet, ahova tudok küldeni mindenkit, akiben
         látom a potenciált, hogy bármilyen módon előrébb vihetik a kis életem a
         céljaim felé vagy egy még azoknál is jobb irányba. Ez nem egy brutálisan
         hasznos oldal, vagy a mesterművem, viszont gyakorlatilag csak egy egyedi
