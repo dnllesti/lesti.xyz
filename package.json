@@ -18,7 +18,7 @@
     "core-js": "^3.6.5",
     "cors": "^2.8.5",
     "nuxt": "^2.14.6",
-    "nuxt-matomo": "^1.2.3"
+    "nuxt-matomo": "^1.2.4"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
