@@ -7,8 +7,8 @@
         Először is, köszönöm, hogy itt vannak, tényleg sokat jelent nekem.
         Másodszor is viszont.. Mégis mi ez az oldal és miért létezik?
         <br />
-        Szerettem volna egy helyet, ahova tudok küldeni mindenkit, akiben
-        látom a potenciált, hogy bármilyen módon előrébb vihetik a kis életem a
+        Szerettem volna egy helyet, ahova tudok küldeni mindenkit, akiben látom
+        a potenciált, hogy bármilyen módon előrébb vihetik a kis életem a
         céljaim felé vagy egy még azoknál is jobb irányba. Ez nem egy brutálisan
         hasznos oldal, vagy a mesterművem, viszont gyakorlatilag csak egy egyedi
         platformot szerettem volna magamnak, ahol kiadhatom a kis gondolataimat
@@ -24,15 +24,16 @@
         írogatok részletesen. Azonban áttérve a lényegesebb részekre,
         kifejezetten szeretek jóformán minden szociális tevékenységet, legyen
         szó munkáról, szórakozásról vagy egyszerű beszélgetésekről, szinte
-        mindennél fontosabb nekem az őszinteség már csak a visszajelzések
-        kérdésében is, hisz nem véletlenül tartok jelenleg is egy kisebb
-        felmérést gyakorlatilag saját magamról email kampánnyal. Szeretem tudni
-        az emberek mit gondolnak rólam és mindennél jobban gyűlölöm, ha valaki
-        fölöslegesen és sokszor csak károsan dicsérget engem. Nagyon fontosnak
-        tartom a pozitív és a negatív kritikákat egyaránt, hisz ezek elég erős
+        nagyon fontos nekem az őszinteség már csak a visszajelzések kérdésében
+        is, hisz nem véletlenül tartok jelenleg is egy kisebb felmérést
+        gyakorlatilag saját magamról email kampánnyal. Szeretem tudni az emberek
+        mit gondolnak rólam és mindennél jobban gyűlölöm, ha valaki fölöslegesen
+        és sokszor csak károsan dicsérget engem. Nagyon fontosnak tartom a
+        pozitív és a negatív kritikákat egyaránt, hisz ezek elég erős
         iránymutatók tudnak lenni, hogy mégis merre lenne jobb tovább haladni,
         természetesen nagy hangsúlyt fektetve a döntésnél saját értékrendjeimre
-        és terveimre is.
+        és terveimre is, hogy minnél biztosabban trappolhassak a számomra fontos
+        célok felé.
       </p>
       <hr />
       <h2>Nade mégis mi az ami fontos nekem?</h2>
@@ -62,11 +63,11 @@ h2 {
   color: #666;
 }
 .main {
-    padding: 5vw 5vw;
-    @media (max-width: 959px) {
+  padding: 5vw 5vw;
+  @media (max-width: 959px) {
     margin: 10vh 2vw;
-    p{
-    font-size: 0.8rem;
+    p {
+      font-size: 0.8rem;
     }
   }
 }
