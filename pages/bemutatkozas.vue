@@ -12,8 +12,7 @@
         céljaim felé vagy egy még azoknál is jobb irányba. Ez nem egy brutálisan
         hasznos oldal, vagy a mesterművem, viszont gyakorlatilag csak egy egyedi
         platformot szerettem volna magamnak, ahol kiadhatom a kis gondolataimat
-        és megmutathatom, milyen is vagyok, még ha azt nem is, hogy pontosan
-        mire is vagyok képes.
+        és megmutathatom, milyen is vagyok.
       </p>
       <hr />
       <h2>Ha már “bemutatkozás”</h2>
