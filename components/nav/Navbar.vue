@@ -6,7 +6,7 @@
         </a>
     </div>
 
-  <NuxtLink class="contact" to="/kapcsolat"> <button>Kapcsolat</button> </NuxtLink>
+  <NuxtLink class="contact hidedesktop" v-if="$nuxt.$route.path !== '/'" to="/"> <button>Vissza </button> </NuxtLink>
           <div class="drawer-toggle" role="button" @click="$store.dispatch('nav/toggleSidebar')">
             <div class="bar"></div>
             <div class="bar"></div>
@@ -55,8 +55,9 @@
     }
     button{
         color: $cta_one_contra;
-        padding: 8px 20px;
+        box-sizing: border-box;
         background-color: $cta_one;
+        padding: 0.5rem 0.8rem;
         border: none;
         border-radius: 50px;
         cursor: pointer;
@@ -76,6 +77,7 @@
     height: 100%;
     }
     .logo{
+        margin: 0.3rem 0;
         height: auto;
         width: 8rem;
         margin-right: auto;
@@ -88,7 +90,8 @@
         background-color: $main_contra;
     }
     .drawer-toggle {
-        display: flex;
+        display: none;
+        //display: flex;
         justify-self: end;
         flex-direction: column;
         justify-content: space-around;
@@ -99,13 +102,13 @@
     }
 
         @media (max-width: 960px) {
-        .app-links, .contact{
+        .app-links{
             display: none;
         }
     }
     @media (min-width: 961px) {
         .app-links {
-            display: block;
+            display: none;
         }
         .drawer-toggle {
             display: none;

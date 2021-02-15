@@ -11,6 +11,7 @@
 
 <style lang="scss" scoped>
 @media (max-width: 767px) {
+
   li,
   a {
     padding: 1vh 0;

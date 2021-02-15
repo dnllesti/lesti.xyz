@@ -20,6 +20,7 @@ export default {
             text-decoration: none;
             color: $cta_one_contra;
             background-color: $cta_one;
+            
             padding: 0.7rem 0rem;
             margin: 2vh auto;
 
@@ -32,11 +33,21 @@ export default {
             @media (min-width: 961px) {
             width: 90%;
             }
-
+            
     }
 
     a{
         text-decoration: none;
+    }
+    .nuxt-link-active{
+
+                .projekt {
+                background-color: #fff;
+                color: #000;
+-webkit-box-shadow:inset 0px 0px 0px 5px #000;
+    -moz-box-shadow:inset 0px 0px 0px 5px #000;
+    box-shadow:inset 0px 0px 0px 5px #000;
+            }
     }
 
 
