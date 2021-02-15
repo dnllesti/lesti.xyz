@@ -59,7 +59,7 @@
         background-color: $cta_one;
         padding: 0.5rem 0.8rem;
         border: none;
-        border-radius: 50px;
+        border-radius: 5px;
         cursor: pointer;
         transition: all 0.3 ease 0s;
     }
