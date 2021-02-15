@@ -2,7 +2,7 @@
   <main-wrapper>
     <div class="main content">
       <h1>Tervek</h1>
-      <h2>Ki vagyok?</h2>
+      <h2>Ezsincs</h2>
       <p>
         Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
         Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna

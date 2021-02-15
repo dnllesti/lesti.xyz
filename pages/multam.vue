@@ -1,8 +1,8 @@
 <template>
   <main-wrapper>
     <div class="main content">
-      <h1>Munkáim</h1>
-      <h2>Ki vagyok?</h2>
+      <h1>Múltam</h1>
+      <h2>Ez tökre nincs kész még</h2>
       <p>
         Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
         Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna

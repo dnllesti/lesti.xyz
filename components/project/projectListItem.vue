@@ -44,9 +44,9 @@ export default {
                 .projekt {
                 background-color: #fff;
                 color: #000;
--webkit-box-shadow:inset 0px 0px 0px 5px #000;
-    -moz-box-shadow:inset 0px 0px 0px 5px #000;
-    box-shadow:inset 0px 0px 0px 5px #000;
+-webkit-box-shadow:inset 0px 0px 0px 3px #000;
+    -moz-box-shadow:inset 0px 0px 0px 3px #000;
+    box-shadow:inset 0px 0px 0px 3px #000;
             }
     }
 

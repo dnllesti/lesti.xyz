@@ -8,7 +8,7 @@
       </h2>
       <div class="items">
         <project-list-item title="Bemutatkozás" url="/bemutatkozas" />
-        <project-list-item title="Eddigi munkáim" url="/munkaim" />
+        <project-list-item title="Múltam" url="/multam" />
         <project-list-item title="Terveim" url="/tervek" />
         <project-list-item title="Elérhetőség" url="/kapcsolat" />
       </div>
