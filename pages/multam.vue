@@ -2,16 +2,28 @@
   <main-wrapper>
     <div class="main content">
       <h1>Múltam</h1>
-      <h2>Iskola</h2>
+      <h2>Iskola / Tanulmányok</h2>
       <p>
-        Szakgimnáziumba a BMSZC Petrik-be jöttem fel, ahol infó szakot szenvedem
-        végig jelenleg. Jegyeimet tekintve egész elfogadhatóan sose esett le az
-        átlagom 4.8 alá, most félévem is mondjuk 5.0 lett, viszont szerencsémre
-        relatíve nagyon kevés készüléssel tudom hozni ezt a szintet, úgyhogy van
-        / inkább volt kis plussz energiám a saját kis életem managelésére. Így
-        lettem például valahogy tagozatvezető-helyettes egy vegyész
-        szakszervezetben vagy így tudtam el járkálni hetente az ELTE-re pár
-        fizika előadásra.
+        Szakgimnáziumba a BMSZC Petrik-be jöttem fel Pestre vidékről, ahol
+        jelenleg is Informatika szakon vagyok egész elfogadható tanulmányi
+        eredményekkel. Most félévem 5.0-ra sikerült és szinte sose esett le az
+        átlagom 4.8 alá, viszont ez közel sem jelenti azt, hogy stréber lennék.
+        Szerencsére megvannak az adottságaim ahhoz, hogy nagyon gyorsan tanuljak
+        és elérjek mindent amit szeretnék idővel. Iskola mellett régen elkezdtem
+        jópár Udemy-s kurzust webfejlesztésről, ami után elkezdtem jobban
+        foglalkozi évekig frontend frameworkökkel, többek között React- al és
+        Vue-val, amik közül az utóbbinál ragadtam le egy kicsit, hisz nagyon
+        megszerettem. Ezek által nagyon szépen megtanultam, hogy működik és
+        miért is jó ez az önfejlesztés és egyéni tanulás dolog, amellett, hogy
+        már nagyon profin tudok mondatokat elemezni és álmomból felkeltve is fel
+        tudom sorolni a görög oszlop fajtákat. Pontosan tudom, hogy az, hogy
+        “informatika” szakon vagyok és végzek közel sem ér jóformán semmit
+        szakmailag, ezért is kezdtem bele abba a kis kampányomban, ahonnal jó
+        eséllyel ide kerültek, hiszen a rendszerüzemeltetés / hálózatok és IoT
+        nem pont az amit csak úgy tudnék a semmiből itthon tanulni sajnos.
+        Szeretnék végre rendes tényleges eredményeket is elérni, amihez
+        segítségre lesz szükségem, de ezekről a <nuxt-link to="/tervek">Terveim</nuxt-link> oldalon írok
+        részletesebben.
       </p>
       <hr />
       <h2>Munkahelyek</h2>
@@ -47,14 +59,16 @@
         nemzetközi találkozón és továbbképzésen, ahol szinkrontolmácsokkal
         felfegyverkezve próbáltuk megváltani a világot, több kevesebb liter kávé
         elfogyasztása mellett természetesen. Ezek mellett jártam heti 1x az
-        ELTE-re csupán önkéntes alapon <a href="http://atomcsill.elte.hu/NEW/">Az atomoktól a csillagokig</a> 
+        ELTE-re csupán önkéntes alapon
+        <a href="http://atomcsill.elte.hu/NEW/">Az atomoktól a csillagokig</a>
         rendezvénysorozatra, ahol mindenről tartanak előadást ami
         természettudomány. Itt ismerkedtem meg egy kutató doktorral, aki a
         KFKI-ban kutat tanítás mellett és vezet egy (jelenleg COVID miatt
         felfüggesztett) diák kutató csoportot, aminek tagja lehettem kemény 1
         napig, még le nem záratták jóformán a teljes Központi Fizikai Kutató
         Intézetet a vírus miatt. Az utóbbi 2-t nagyon szeretném tovább
-        folytatni, amint lehetőségem lesz rá, hisz elképesztően élvezem őket.
+        folytatni, amint lehetőségem lesz rá, hisz elképesztően élvezem őket és
+        elvileg szívesen várnak is vissza.
       </p>
     </div>
   </main-wrapper>
@@ -83,6 +97,9 @@ h2 {
     font-size: 1.05rem;
     text-align: justify;
     margin-top: 0vh;
+  }
+  h2 {
+    text-align: left;
   }
 }
 </style>
