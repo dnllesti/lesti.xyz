@@ -56,18 +56,12 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [],
-  router: {
-    middleware: 'sidenav',
-  },
-  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
+  router: {},
   plugins: [],
 
-  // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: ['@nuxtjs/fontawesome'],
   server: {
     host: '0.0.0.0', // default: localhost
@@ -82,9 +76,7 @@ export default {
     },
   },
 
-  // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
     ['nuxt-matomo', { matomoUrl: '//server.lesti.xyz/', siteId: 2 }],
@@ -98,7 +90,5 @@ export default {
     },
   },
 
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-  //serverMiddleware: [{ path: '/api', handler: '~/api/rest.js' }],
 }
