@@ -2,43 +2,40 @@
   <main-wrapper>
     <div class="main content">
       <h1>Tervek</h1>
-      <h2>Ezsincs</h2>
+      <h2>Továbbtanulás</h2>
       <p>
-        Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
-        Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna
-        vel magna semper, sed pulvinar ligula viverra. In commodo ultrices
-        tempor. Maecenas elementum nibh ipsum, ac ultrices nunc euismod vel.
-        Nunc in venenatis ipsum. Cras dapibus dui eget luctus laoreet. Donec
-        sollicitudin, velit at sodales aliquam, dolor purus faucibus ligula, a
-        facilisis erat dui hendrerit sem. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. In condimentum
-        libero ut varius ultricies. Duis vestibulum scelerisque condimentum.
+        A jelenlegi állás alapján OKJ-n fogok maradni legalább 1 évet
+        informatikai rendszerüzemeltetői-n, hogy jobban bele tudjak merülni a
+        hálózatokba + többek között, hogy minél több helyről tudjak tanulni
+        párhuzamosan ezekről a dolgokról élen az IoT val (amit még mindig nem
+        tudok pontosan hol fogom tudni kellő szinten kitanulni). Diplomáért
+        később szeretnék menni, legkorábban OKJ után, hogy ne csak vakon
+        rohanjak bele pontosan 0.5 lábon állva és függve gyakorlatilag mindentől
+        ami jelenleg körülvesz.
       </p>
       <hr />
-      <h2>Eskü nem Somogyiék</h2>
+      <h2>Hosszútáv</h2>
       <p>
-        Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
-        Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna
-        vel magna semper, sed pulvinar ligula viverra. In commodo ultrices
-        tempor. Maecenas elementum nibh ipsum, ac ultrices nunc euismod vel.
-        Nunc in venenatis ipsum. Cras dapibus dui eget luctus laoreet. Donec
-        sollicitudin, velit at sodales aliquam, dolor purus faucibus ligula, a
-        facilisis erat dui hendrerit sem. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. In condimentum
-        libero ut varius ultricies. Duis vestibulum scelerisque condimentum.
+        Hosszútávon a végső célom igazából cégalapítás és összeállás másokkal,
+        hogy akár újonnan épülő akár meglévő épületek rendszereit kiépíteni,
+        később elektronikus hálózattal együtt. Meglesz ez, egész szép kis
+        ötleteim vannak. Természetesen tudom, hogy ez csak a jelenlegi verzió,
+        de kaliberben mindig is ilyesmi lesz a terv, ebben biztos vagyok.
       </p>
       <hr />
-      <h2>Legyen már valami más is</h2>
+      <h2>Rövidtáv</h2>
       <p>
-        Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
-        Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna
-        vel magna semper, sed pulvinar ligula viverra. In commodo ultrices
-        tempor. Maecenas elementum nibh ipsum, ac ultrices nunc euismod vel.
-        Nunc in venenatis ipsum. Cras dapibus dui eget luctus laoreet. Donec
-        sollicitudin, velit at sodales aliquam, dolor purus faucibus ligula, a
-        facilisis erat dui hendrerit sem. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. In condimentum
-        libero ut varius ultricies. Duis vestibulum scelerisque condimentum.
+        Jelenleg minél több szakmai tapasztalatra van szükségem és főként egy
+        stabil keresetre, amitől már elmondhatom magamról, hogy nem csak egy
+        random “gyerek” vagyok. Szeretnék minél előbb önállóvá válni és
+        elkezdeni a saját életem élését. És mint mondtam, főként ezért létezik
+        ez az oldal, hogy ha esetleg tudnának bármilyen tanáccsal, ötlettel,
+        lehetőséggel segíteni, azt nagyon megköszönném. Nagyon lelkesen tudok
+        dolgozni a céljaimért és mindenért ami fontos nekem, így esélyesen jó
+        munkaerő lennék. 
+        <br />
+        Ha fel szeretnék venni velem a kapcsolatot, kérem keressenek email-ben,
+        minden üzenetet szívesen várok - <nuxt-link to="/kapcsolat">kapcsolat</nuxt-link> 😇
       </p>
     </div>
   </main-wrapper>
@@ -53,11 +50,11 @@ h2 {
   color: #666;
 }
 .main {
-    padding: 5vw 5vw;
-    @media (max-width: 1430px) {
+  padding: 5vw 5vw;
+  @media (max-width: 1430px) {
     margin: 10vh 2vw;
-    p{
-    font-size: 0.8rem;
+    p {
+      font-size: 0.8rem;
     }
   }
 }

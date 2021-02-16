@@ -9,7 +9,6 @@
       <div class="items">
         <project-list-item title="Bemutatkozás" url="/bemutatkozas" />
         <project-list-item title="Múltam" url="/multam" />
-        <project-list-item title="Múltam Teszt" url="/multam-test" />
         <project-list-item title="Terveim" url="/tervek" />
         <project-list-item title="Elérhetőség" url="/kapcsolat" />
       </div>

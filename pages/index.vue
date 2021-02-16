@@ -11,8 +11,8 @@
 hr {
   margin: 3vh 0 3vh 0;
 }
-h1 {
-  margin: 0 0 1vh 0;
+h2 {
+  color:rgb(235, 235, 235);
 }
 .main {
     padding: 5vw 5vw;

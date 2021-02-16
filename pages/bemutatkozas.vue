@@ -23,7 +23,7 @@
         dolog gyakorlatilag eltűnt az életemből. Ezekről a múltam részen
         írogatok részletesen. Azonban áttérve a lényegesebb részekre,
         kifejezetten szeretek jóformán minden szociális tevékenységet, legyen
-        szó munkáról, szórakozásról vagy egyszerű beszélgetésekről, szinte
+        szó munkáról, szórakozásról vagy egyszerű beszélgetésekről,
         nagyon fontos nekem az őszinteség már csak a visszajelzések kérdésében
         is, hisz nem véletlenül tartok jelenleg is egy kisebb felmérést
         gyakorlatilag saját magamról email kampánnyal. Szeretem tudni az emberek

@@ -1,68 +1,35 @@
 <template>
-  <div class="container">
-    <div>
+  <main-wrapper>
       <Logo />
-      <h1 class="title">404</h1>
-      <h2 class="subtitle">AZ UNIKORNISOK VOLTAK</h2>
+    <div class="main content">
+      <h1>{{error.statusCode}}</h1>
+      <p v-if="error.statusCode === 404">
+        A keresett oldal nem található
+      </p>
+      <p v-else>Hiba lépett fel.</p>
 
     </div>
-    <BottomLeftTriangle class="triangle" />
-  </div>
+  </main-wrapper>
 </template>
 
-
 <style lang="scss" scoped>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  max-height: 100vh;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  @media (min-width: 1431px) {
-    margin-right: 18vw;
-    justify-content: flex-end;
-  }
-  align-items: center;
+
+.main {
+  min-width: 60vw;
   text-align: center;
-  background-color: $main_color;
-  .triangle{
-      position: absolute;
-      bottom: 0;
-      left: 0;
+    padding: 0vw 5vw;
+    margin-top: 3vh;
+    font-size: 2rem;
+}
+.content {
+  p {
+    font-size: 1.4rem;
   }
 }
-
-.title {
-  margin-top: 1rem;
-  display: block;
-  font-weight: 400;
-  font-size: 6rem;
-  color: $main_contra;
-}
-
-.subtitle {
-  font-weight: 400;
-  font-size: 1.8rem;
-  color: $main_contra;
-  padding: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-
-        @media (max-width: 1430px) {
-        .app-links, .contact{
-            display: none;
-        }
-    }
-    @media (min-width: 961px) {
-        .app-links {
-            display: block;
-        }
-        .drawer-toggle {
-            display: none;
-        }
-    }
 </style>
+
+<script>
+export default {
+  props: ['error'],
+}
+</script>

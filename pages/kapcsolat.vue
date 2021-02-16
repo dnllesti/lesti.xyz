@@ -2,49 +2,22 @@
   <main-wrapper>
     <div class="main content">
       <h1>Kapcsolat</h1>
-      <h2>Ki vagyok?</h2>
-      <p>
-        Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
-        Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna
-        vel magna semper, sed pulvinar ligula viverra. In commodo ultrices
-        tempor. Maecenas elementum nibh ipsum, ac ultrices nunc euismod vel.
-        Nunc in venenatis ipsum. Cras dapibus dui eget luctus laoreet. Donec
-        sollicitudin, velit at sodales aliquam, dolor purus faucibus ligula, a
-        facilisis erat dui hendrerit sem. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. In condimentum
-        libero ut varius ultricies. Duis vestibulum scelerisque condimentum.
-      </p>
       <hr />
-      <h2>Eskü nem Somogyiék</h2>
+      <h2>Állásajánlat, Tanács</h2>
       <p>
-        Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
-        Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna
-        vel magna semper, sed pulvinar ligula viverra. In commodo ultrices
-        tempor. Maecenas elementum nibh ipsum, ac ultrices nunc euismod vel.
-        Nunc in venenatis ipsum. Cras dapibus dui eget luctus laoreet. Donec
-        sollicitudin, velit at sodales aliquam, dolor purus faucibus ligula, a
-        facilisis erat dui hendrerit sem. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. In condimentum
-        libero ut varius ultricies. Duis vestibulum scelerisque condimentum.
-      </p>
-      <hr />
-      <h2>Legyen már valami más is</h2>
-      <p>
-        Phasellus lorem lectus, imperdiet et mi at, tristique faucibus nisl.
-        Nulla vel iaculis erat, sed efficitur tellus. Vestibulum auctor magna
-        vel magna semper, sed pulvinar ligula viverra. In commodo ultrices
-        tempor. Maecenas elementum nibh ipsum, ac ultrices nunc euismod vel.
-        Nunc in venenatis ipsum. Cras dapibus dui eget luctus laoreet. Donec
-        sollicitudin, velit at sodales aliquam, dolor purus faucibus ligula, a
-        facilisis erat dui hendrerit sem. Pellentesque habitant morbi tristique
-        senectus et netus et malesuada fames ac turpis egestas. In condimentum
-        libero ut varius ultricies. Duis vestibulum scelerisque condimentum.
+        Amennyiben megtetszettem bármennyire is ököknek, egyszerűen látják bennem a potenciált, vagy éppen jól jönne egy gyorsan tanuló szorgalmas srác a csapatukba kérem keressenek meg a <a href="mailto:daniel@lesti.xyz">daniel@lesti.xyz</a>-címen. Minden kritikát, tanácsot vagy ajánlatot szivesen fogadok.
       </p>
     </div>
   </main-wrapper>
 </template>
 
 <style lang="scss" scoped>
+.thx{
+    margin-top: 2vh;
+}
+ul{
+    margin: 2vh auto;
+}
 hr {
   margin: 3vh 0 3vh 0;
 }
@@ -68,5 +41,9 @@ h2 {
     text-align: justify;
     margin-top: 0vh;
   }
+}
+a{
+    color: $cta_two;
+    text-decoration: none;
 }
 </style>
