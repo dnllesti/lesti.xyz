@@ -118,7 +118,7 @@ a {
 .links {
   padding-top: 15px;
 }
-@media (max-width: 960px) {
+@media (max-width: 1430px) {
   .container {
     flex-wrap: wrap;
   }

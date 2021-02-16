@@ -101,7 +101,7 @@
         cursor: pointer;
     }
 
-        @media (max-width: 960px) {
+        @media (max-width: 1430px) {
         .app-links{
             display: none;
         }

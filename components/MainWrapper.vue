@@ -9,6 +9,7 @@
       <div class="items">
         <project-list-item title="Bemutatkozás" url="/bemutatkozas" />
         <project-list-item title="Múltam" url="/multam" />
+        <project-list-item title="Múltam Teszt" url="/multam-test" />
         <project-list-item title="Terveim" url="/tervek" />
         <project-list-item title="Elérhetőség" url="/kapcsolat" />
       </div>
@@ -28,13 +29,13 @@ export default {
 <style lang="scss">
 .hidemobile
 {
-    @media (max-width: 959px) {
+    @media (max-width: 1430px) {
     display: none !important;
   }
 }
 .hidedesktop
 {
-    @media (min-width: 959px) {
+    @media (min-width: 1431px) {
     display: none !important;
   }
 }
@@ -47,10 +48,11 @@ export default {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  @media (min-width: 960px) {
+  @media (min-width: 1431px) {
     justify-content: flex-start;
+    max-height: 100vh;
   }
-  @media (max-width: 959px) {
+  @media (max-width: 1430px) {
     flex-direction: column;
   }
   align-items: center;
@@ -99,7 +101,7 @@ export default {
   padding-top: 15px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1430px) {
   .app-links,
   .contact {
     display: none;

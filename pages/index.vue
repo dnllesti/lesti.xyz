@@ -1,8 +1,7 @@
 <template>
   <main-wrapper :hidemobile="true">
     <div class="main content">
-      <h1>Helóka!</h1>
-      <p>Éppen készül ez a csoda, így például ez az oldal pont nem fog létezni, kis türelmet kérek.</p>
+      <h2>Redirect incoming!</h2>
 
     </div>
   </main-wrapper>
@@ -17,7 +16,7 @@ h1 {
 }
 .main {
     padding: 5vw 5vw;
-    @media (max-width: 959px) {
+    @media (max-width: 1430px) {
     margin: 10vh 2vw;
     p{
     font-size: 0.8rem;
@@ -33,3 +32,14 @@ h1 {
   }
 }
 </style>
+
+<script>
+export default {
+  mounted: function () {
+     console.log(window.innerWidth)
+     if (window.innerWidth > 1430){
+     this.$router.push('/bemutatkozas')
+     }
+  }
+}
+</script>

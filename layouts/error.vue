@@ -19,7 +19,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  @media (min-width: 960px) {
+  @media (min-width: 1431px) {
     margin-right: 18vw;
     justify-content: flex-end;
   }
@@ -52,7 +52,7 @@
   padding-top: 15px;
 }
 
-        @media (max-width: 960px) {
+        @media (max-width: 1430px) {
         .app-links, .contact{
             display: none;
         }

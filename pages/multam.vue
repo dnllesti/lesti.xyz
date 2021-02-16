@@ -9,21 +9,25 @@
         eredményekkel. Most félévem 5.0-ra sikerült és szinte sose esett le az
         átlagom 4.8 alá, viszont ez közel sem jelenti azt, hogy stréber lennék.
         Szerencsére megvannak az adottságaim ahhoz, hogy nagyon gyorsan tanuljak
-        és elérjek mindent amit szeretnék idővel. Iskola mellett régen elkezdtem
-        jópár Udemy-s kurzust webfejlesztésről, ami után elkezdtem jobban
-        foglalkozi évekig frontend frameworkökkel, többek között React- al és
-        Vue-val, amik közül az utóbbinál ragadtam le egy kicsit, hisz nagyon
-        megszerettem. Ezek által nagyon szépen megtanultam, hogy működik és
-        miért is jó ez az önfejlesztés és egyéni tanulás dolog, amellett, hogy
-        már nagyon profin tudok mondatokat elemezni és álmomból felkeltve is fel
-        tudom sorolni a görög oszlop fajtákat. Pontosan tudom, hogy az, hogy
-        “informatika” szakon vagyok és végzek közel sem ér jóformán semmit
-        szakmailag, ezért is kezdtem bele abba a kis kampányomban, ahonnal jó
-        eséllyel ide kerültek, hiszen a rendszerüzemeltetés / hálózatok és IoT
-        nem pont az amit csak úgy tudnék a semmiből itthon tanulni sajnos.
-        Szeretnék végre rendes tényleges eredményeket is elérni, amihez
-        segítségre lesz szükségem, de ezekről a <nuxt-link to="/tervek">Terveim</nuxt-link> oldalon írok
-        részletesebben.
+        és elérjek mindent amit szeretnék idővel. Papírok szempontjából jelenleg
+        egy emelt informatika érettségim van 92%-al és egy 87%-os közép angol,
+        amiket előrehozottan csináltam meg, a többi a most májusi
+        vizsgaidőszakban lesz meg, együtt egy 52 481 02 -as irodai informatikus
+        mellék szakképesítéssel. Iskola mellett régen elkezdtem jópár Udemy-s
+        kurzust webfejlesztésről, ami után elkezdtem jobban foglalkozi évekig
+        frontend frameworkökkel, többek között React- al és Vue-val, amik közül
+        az utóbbinál ragadtam le egy kicsit, hisz nagyon megszerettem. Ezek
+        által nagyon szépen megtanultam, hogy működik és miért is jó ez az
+        önfejlesztés és egyéni tanulás dolog, amellett, hogy már nagyon profin
+        tudok mondatokat elemezni és álmomból felkeltve is fel tudom sorolni a
+        görög oszlop fajtákat. Pontosan tudom, hogy az, hogy “informatika”
+        szakon vagyok és végzek közel sem ér jóformán semmit szakmailag, ezért
+        is kezdtem bele abba a kis kampányomban, ahonnal jó eséllyel ide
+        kerültek, hiszen a rendszerüzemeltetés / hálózatok és IoT nem pont az
+        amit csak úgy tudnék a semmiből itthon tanulni sajnos. Szeretnék végre
+        rendes tényleges eredményeket is elérni, amihez segítségre lesz
+        szükségem, de ezekről a
+        <nuxt-link to="/tervek">Terveim</nuxt-link> oldalon írok részletesebben.
       </p>
       <hr />
       <h2>Munkahelyek</h2>
@@ -83,12 +87,21 @@ h2 {
   color: #666;
 }
 .main {
-  padding: 5vw 5vw;
-  @media (max-width: 959px) {
+  
+  @media (max-width: 1430px) {
+    padding: 5vw 5vw;
     margin: 10vh 2vw;
     p {
       font-size: 0.8rem;
     }
+  }
+  @media (min-width: 1431px) {
+    padding: 0vw 5vw;
+    p {
+      font-size: 0.8rem;
+    }
+    height: 85vh;
+    overflow-y: scroll;
   }
 }
 .content {

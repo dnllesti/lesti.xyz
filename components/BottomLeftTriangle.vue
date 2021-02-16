@@ -13,7 +13,7 @@
       height: 0;
       border-bottom: 45vh solid $cta_one;
       border-right: 70vw solid transparent;
-      @media (max-width: 960px) {
+      @media (max-width: 1430px) {
           display: none;
         border-right: 90vw solid transparent;
         border-bottom: 10vh solid $cta_one;

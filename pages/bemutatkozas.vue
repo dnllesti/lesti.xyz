@@ -64,7 +64,7 @@ h2 {
 }
 .main {
   padding: 5vw 5vw;
-  @media (max-width: 959px) {
+  @media (max-width: 1430px) {
     margin: 10vh 2vw;
     p {
       font-size: 0.8rem;
