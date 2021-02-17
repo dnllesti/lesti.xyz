@@ -5,7 +5,7 @@
       <hr />
       <h2>Állásajánlat, Tanács</h2>
       <p>
-        Amennyiben megtetszettem bármennyire is ököknek, egyszerűen látják bennem a potenciált, vagy éppen jól jönne egy gyorsan tanuló szorgalmas srác a csapatukba kérem keressenek meg a <a href="mailto:daniel@lesti.xyz">daniel@lesti.xyz</a>-címen. Minden kritikát, tanácsot vagy ajánlatot szivesen fogadok.
+        Amennyiben megtetszettem bármennyire is önököknek, egyszerűen látják bennem a potenciált, vagy éppen jól jönne egy gyorsan tanuló szorgalmas srác a csapatukba kérem keressenek meg a <a href="mailto:daniel@lesti.xyz">daniel@lesti.xyz</a>-címen. Minden kritikát, tanácsot vagy ajánlatot szivesen fogadok.
       </p>
     </div>
   </main-wrapper>
@@ -38,7 +38,7 @@ h2 {
   text-align: justify;
   p {
     font-size: 1.05rem;
-    text-align: justify;
+    text-align: left;
     margin-top: 0vh;
   }
 }

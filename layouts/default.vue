@@ -11,13 +11,14 @@
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 a{
   text-decoration: none;
 }
 
 html {
-  font-family: 'Roboto', 'Source Sans Pro', -apple-system,
+  font-family: 'Poppins', 'Source Sans Pro', -apple-system,
     BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;

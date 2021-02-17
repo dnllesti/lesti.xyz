@@ -60,23 +60,34 @@ hr {
 }
 h2 {
   margin: 3vh 0 1vh 0;
-  color: #666;
+  color: rgb(78, 78, 78);
 }
 .main {
-  padding: 5vw 5vw;
+  text-align: left;
+  
   @media (max-width: 1430px) {
+    padding: 5vw 5vw;
     margin: 10vh 2vw;
     p {
-      font-size: 0.8rem;
+    text-align: left;
+    font-size: 1.05rem;
     }
+  }
+  @media (min-width: 1431px) {
+    padding: 0vw 5vw;
+    p {
+      font-size: 0.95rem;
+    }
+    height: 85vh;
+    overflow-y: scroll;
   }
 }
 .content {
-  text-align: justify;
   p {
-    font-size: 1.05rem;
-    text-align: justify;
     margin-top: 0vh;
+  }
+  h2 {
+    text-align: left;
   }
 }
 </style>

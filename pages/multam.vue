@@ -52,7 +52,7 @@
         ötlet, hogy nekiállok keresgélni. Itt tartunk most. 😇
       </p>
       <hr />
-      <h2>Nem közoktatás, nemis munkahely de legalább ingyen</h2>
+      <h2>Érdekesebb</h2>
       <p>
         Az idők során elkerültem 1-2 furcsa helyre, többek között a már említett
         vegyész szakszervezethez, ahol valamilyen varázslatos (amúgy teljesen
@@ -84,31 +84,30 @@ hr {
 }
 h2 {
   margin: 3vh 0 1vh 0;
-  color: #666;
+  color: rgb(78, 78, 78);
 }
 .main {
+  text-align: left;
   
   @media (max-width: 1430px) {
     padding: 5vw 5vw;
     margin: 10vh 2vw;
     p {
-      font-size: 0.8rem;
+    text-align: left;
+    font-size: 1.05rem;
     }
   }
   @media (min-width: 1431px) {
     padding: 0vw 5vw;
     p {
-      font-size: 0.8rem;
+      font-size: 0.95rem;
     }
     height: 85vh;
     overflow-y: scroll;
   }
 }
 .content {
-  text-align: justify;
   p {
-    font-size: 1.05rem;
-    text-align: justify;
     margin-top: 0vh;
   }
   h2 {

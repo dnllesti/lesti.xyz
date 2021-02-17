@@ -13,7 +13,7 @@
         <project-list-item title="Elérhetőség" url="/kapcsolat" />
       </div>
     </div>
-    <div :class="!hidemobile ? '' : 'hidemobile'">
+    <div class="textthingy" :class="!hidemobile ? '' : 'hidemobile'">
       <slot></slot>
     </div>
   </div>
@@ -70,7 +70,6 @@ export default {
     justify-content: center;
     flex-direction: column;
     min-height: 90vh;
-    
   }
 
   
@@ -113,6 +112,9 @@ export default {
   .drawer-toggle {
     display: none;
   }
+}
+.textthingy{
+    font-family: 'Poppins';
 }
 </style>
 

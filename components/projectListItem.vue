@@ -26,7 +26,10 @@ border-radius: 5px;
   margin: 2vh auto;
 
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.70rem;
+  h2{
+    font-weight: 600;
+    }
 
   @media (max-width: 961px) {
     width: 70vw;
