@@ -113,9 +113,9 @@ export default {
     display: none;
   }
 }
-.textthingy{
-    font-family: 'Poppins';
-}
+//.textthingy{
+    //font-family: 'Poppins';
+//}
 </style>
 
 
