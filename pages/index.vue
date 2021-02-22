@@ -1,7 +1,7 @@
 <template>
   <main-wrapper :hidemobile="true">
     <div class="main content">
-      <h2>Redirect incoming!</h2>
+      <h2>Redirect incoming! {{VERCEL_URL}}</h2>
 
     </div>
   </main-wrapper>
@@ -40,6 +40,11 @@ export default {
      if (window.innerWidth > 1430){
      this.$router.push('/bemutatkozas')
      }
-  }
+  },
+  computed: {
+    VERCEL_URL() {
+      return process.env.VERCEL_URL;
+    },
+  },
 }
 </script>

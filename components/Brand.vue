@@ -2,7 +2,10 @@
 
 <div class="container">
     <img class="Logo" src="~/assets/rect.png" alt="" />
-    <h2>Lesti.xyz</h2>
+    <h2>Lesti.xyz {{VERCEL_URL}}</h2>
+    <p>
+       
+    </p>
 </div>
 
 </template>
@@ -33,3 +36,13 @@
 }
 
 </style>
+
+<script>
+export default {
+    computed: {
+    VERCEL_URL() {
+      return process.env.VERCEL_URL;
+    },
+  },
+}
+</script>
