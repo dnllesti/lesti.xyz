@@ -79,7 +79,10 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
-    ['nuxt-matomo', { matomoUrl: '//server.lesti.xyz/', siteId: 2 }],
+    [
+      'nuxt-matomo',
+      { matomoUrl: '//server.lesti.xyz/', siteId: process.env.MATOMO_SITE_ID },
+    ],
   ],
   styleResources: {
     scss: ['~/assets/scss/colors.scss'],
